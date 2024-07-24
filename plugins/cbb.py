@@ -19,7 +19,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>○ Owner:</b> <a href='https://t.me/RexonBlood'>Rexon Blood</a> \n<b>○ Support Group:</b> <a href='https://t.me/rexonblacksupport'>RexonBlack Support</a> \n<b> ○ Channel :</b> <a href='https://t.me/rexonblack'>Rexon Black</a>",
+            text = f"<b>➢ Developer:</b> <a href='https://t.me/RexonBlood'>Rexon Blood</a> \n<b>➢ Support Group:</b> <a href='https://t.me/rexonblacksupport'>RexonBlack Support</a> \n<b>➢ Channel :</b> <a href='https://t.me/rexonblack'>Rexon Black</a>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
